@@ -26,16 +26,24 @@ Module Operators
 
         'concatenate stuff
         'use with caution
-        Console.WriteLine("2" + "2")
-        Console.ReadLine()
-        'happy times
-        Console.WriteLine("2" & "2")
-        Console.ReadLine()
-        'example
-        Console.WriteLine("Hello" & "," & " " & "World!")
-        Console.ReadLine()
+        'Console.WriteLine("2" + "2")
+        'Console.ReadLine()
+        ''happy times
+        'Console.WriteLine("2" & "2")
+        'Console.ReadLine()
+        ''example
+        'Console.WriteLine("Hello" & "," & " " & "World!")
+        'Console.ReadLine()
 
-
+        'compare stuff
+        Console.WriteLine(1 > 3)
+        Console.ReadLine()
+        Console.WriteLine(1 < 3)
+        Console.ReadLine()
+        Console.WriteLine(1 = 3)
+        Console.ReadLine()
+        Console.WriteLine(1 <> 3)
+        Console.ReadLine()
 
 
     End Sub
